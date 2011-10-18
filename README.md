@@ -6,13 +6,13 @@ Create an instance of the PostmarkSpamcheck class:
 
 Then pass the email to be checked:
 
-`var spamResults = spamChecker.GetScore("The raw email body");`
-`var spamReport = spamChecker.GetReport("The raw email body");`
+    var spamResults = spamChecker.GetScore("The raw email body");
+    var spamReport = spamChecker.GetReport("The raw email body");
 
 Then you can access the score or report:
 
-`Console.WriteLine("Score: {0}", spamResults.Score);`
-`Console.WriteLine("Report: {0}", spamReport.Report);`
+    Console.WriteLine("Score: {0}", spamResults.Score);
+    Console.WriteLine("Report: {0}", spamReport.Report);
 
 ### Sample Usage
 
