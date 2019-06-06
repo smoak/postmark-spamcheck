@@ -1,4 +1,14 @@
+# Postmark Spamcheck
+
+[![Version](https://img.shields.io/nuget/v/PostmarkSpamcheck.svg?style=popout-square)](https://www.nuget.org/packages/PostmarkSpamcheck/)
+
+A c# library to help you query Postmark's [spamcheck api](https://spamcheck.postmarkapp.com/doc/)
+
 ### Usage
+
+Add as a dependency
+
+`dotnet add package PostmarkSpamcheck --version 1.0.0`
 
 Create an instance of the PostmarkSpamcheck class:
 
