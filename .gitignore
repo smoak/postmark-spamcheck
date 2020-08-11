@@ -1,6 +1,7 @@
 *.userprefs
 bin
 obj
+.vs
 *.pidb
 test-results
 TestResults/

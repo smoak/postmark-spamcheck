@@ -1,5 +1,3 @@
-using System;
-
 namespace postmarkspamcheck
 {
     public class SpamcheckOptions
