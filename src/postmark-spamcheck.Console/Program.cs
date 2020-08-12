@@ -8,8 +8,7 @@ namespace postmarkspamcheck
         static async Task Main(string[] args)
         {
             Console.WriteLine("Enter the raw dump of your email:");
-            var userInput = Console.ReadLine();
-            var email = !string.IsNullOrWhiteSpace(userInput) ? userInput : string.Join(" ", args);
+            var email = Console.ReadLine();
             var spamChecker = new PostmarkSpamcheck();
             var score = await spamChecker.GetScore(email);
             if (score.success)
