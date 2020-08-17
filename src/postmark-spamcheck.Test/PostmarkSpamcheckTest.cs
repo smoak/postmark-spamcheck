@@ -1,7 +1,6 @@
 using Moq;
 using Moq.Protected;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using postmarkspamcheck;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
